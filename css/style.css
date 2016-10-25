@@ -1,0 +1,28 @@
+
+
+/* navbar */
+.navbar-default {
+    background-color: rgba(0, 0, 0, .75);
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(239, 239, 239);
+}
+
+/* Body and border */
+body {
+    background-color:rgb(239, 239, 239);
+    color: rgb(46,46,46);
+    font-family: 'Lato', sans-serif; 
+    border-top: 50px solid black; 
+    border-right: 30px solid black;
+    border-left: 30px solid black; 
+    border-bottom: 30px solid black; 
+}
+
+.jumbotron {
+    margin-top: 200px; 
+    margin-bottom: 200px;	
+    display:none
+}
+

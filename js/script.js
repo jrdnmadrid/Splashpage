@@ -20,6 +20,30 @@ $(document).ready(function() {
 
 //Jumbotron//
 		$(document).ready(function() {
-    $('div.jumbotron').fadeIn(4000);
+    $('div.jumbotron').fadeIn(3000);
+});
+
+//fadeIn effects for text besides Jumbotron//
+$(document).ready(function() {
+$(function() {
+    $(window).scroll( function(){
+       
+        $('.fadeInBlock').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 100;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},2500);
+                    
+            }
+        }); 
+    
+    });
+});
 });
 

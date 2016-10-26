@@ -11,19 +11,23 @@
         </head>
         <body>
 
+        <div class="content container"> 
+            <div class="row">
+                  <section class="col-xs-12">
+
             <!--NAV -->
                 <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="container"> 
+                    <div class="container col-xs-12"> 
                         <div class="navbar-header">
                             <button type="button" 
                             class="navbar-toggle collapsed"
                             data-toggle="collapse" 
                             data-target="#collapsemenu"
                             aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
                             </button>
                         <div class="collapse navbar-collapse" 
                           id="collapsemenu">
@@ -36,23 +40,80 @@
                         </div>
                     </div>
                 </nav>
+            
+            <!--Border-->
+                <div class="frame">
+                    <div class="border-bottom"></div>
+                    <div class="border-top"></div>
+                    <div class="border-right"></div>
+                    <div class="border-left"></div> 
+                </div>
 
-                <div class="content container"> 
-                    <div class="row">
-                        <section class="col-xs-12">
+                <!--Opening Statement-->
+                        <div class="jumbotron">
+                            <h2> Jordan Madrid is a Data Enthusiast.
+                            He is passionate about data and the myriad of things you can do with it to change the world. 
+                            </h2>
+                        </div>            
 
-                            <!--Opening Statement-->
-                            <div class="jumbotron">
-                                <p><em> <var>Jordan Madrid</var> is a Data Enthusiast. 
-                                He is passionate about data and the myriad of things you can do with it to change the world.  
-                                He is known for wading through complex datasets in order to find impactful insights buried within.</em></p>
-                            </div>
                             <!--About me-->
-
-
-                            </section>
-                    </div>
-                </div>        
+                        <header class="fadeInBlock">
+                             <h1>About</h1>
+                        </header>
+                        <section class="container col-xs-12 col-sm-6 col-lg-6 fadeInBlock">
+                            <p>
+                                In 2011, Peter Sondegaard, senior vice president and global head of Research at Gartner <a href="http://www.gartner.com/newsroom/id/1824919">wrote</a> <strong>“Information is the oil of the 21st century, and analytics is the combustion engine.” </strong>
+                                The rise of cloud computing, coupled with advanced analytics, has brought an unprecedented ability to harness the power of big data. Now, with the Internet of Things (IoT) revolution, we are seeing data pouring out of common devices like thermostats refrigerators. 
+                            </p>
+                            <p>  
+                              With all of this data comes great complexity. Many businesses have access to enormous amounts of data but are stuck when it comes to harnessing, filtering and processing the data into effective insights. My interest lies in solving that problem and helping businesses find the signal through the noise. 
+                            </p>
+                        </section>
+                        <section class="container col-xs-12 col-sm-6 col-lg-6 fadeInBlock">
+                            <p>
+                              I grew up in Portland, Oregon and have always had a passion for technology. As a child, I was the “technical” expert in my house, always solving router issues and fixing bugs with our old Compaq. After graduating from Gonzaga University, I worked at WE Communications (formerly Waggener Edstrom), working as a public and analyst relations consultant for Microsoft. I worked on a variety of teams, including Visual Studio, Power BI and SQL Server, and fell in love with data wrangling and visualization. 
+                            </p>
+                            <p>
+                               I enrolled in a software development bootcamp, called The Tech Academy, and work full-time pursuing my dream of harnessing and manipulating data as a business analyst or software developer. In my spare time, I like to run, read both fiction and non-fiction and volunteer when time allows.   
+                            </p>
+                        </section>
+               
+          <!--Portfolio--> 
+                    <header>
+                        <h2>Portfolio</h2>
+                    </header>
+                    <section class="container col-xs-12 fadeInBlock">
+                        <p> 
+                            You can view my entire portfolio on <a href="https://github.com/jrdnmadrid">GitHub</a> but here is a sampling of my work:
+                         </p> 
+                    </section>
+                </section>
+            </div>
+         </div>  
+              
+         <!--Carousel-->
+        <div class="content container hidden"> 
+            <div class="row">
+                  <section class="col-xs-12 col-m-12">
+                        <div class="carousel slide" id="featured">
+                      <ol class="carousel-indicators " id="featured">
+                            <li data-target=#featured data-slide-to="0" class="active"> </li>
+                            <li data-target=#featured data-slide-to="1"> </li>
+                        </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/carousel-bungee.jpg" alt="Lifestyle photo of me bungee jumping">
+                                </div>
+                                <div class="item">
+                                    <img src="images/carousel-udon.jpg" alt="Lifestyle photo of me eating udon">
+                                </div>
+                            </div> <!--carousel inner-->
+                        </div> <!--carousel -->
+                </section>
+            </div>
+         </div> 
+        
+       
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/script.js"></script>

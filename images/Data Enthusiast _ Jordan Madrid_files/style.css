@@ -1,4 +1,4 @@
-* { border: 1px solid rgba(0, 0, 0, 0.3); }
+
 
 /* Body */
 body {
@@ -7,7 +7,6 @@ body {
     font-family: 'Lato', sans-serif; 
     -webkit-animation: background 2s cubic-bezier(.42,0,1,1) 1;
     animation: background 2s cubic-bezier(.42,0,1,1) 1;  
-    padding-bottom: 1em;
 }
 
 @-webkit-keyframes background {
@@ -34,7 +33,7 @@ body {
     top: 40px;
     z-index: 1;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .w-inline-block {
@@ -115,7 +114,7 @@ a:active {
 }
 
 .blackbox {
-    background-color: black; 
+    background-color: black;
     color: white;
     padding-bottom: 1em;
 }
@@ -126,7 +125,7 @@ a:active {
 
 header{
     text-align: left;
-    padding-left: 1.4em;
+    padding-left: 10px;
 }
 
 header, #tagline {
@@ -144,7 +143,15 @@ p {
 
 }
 
+/*Carousel*/
+.carousel {
+padding-left: 1em;
+padding-right: 1em;
+}
+
 /*Fade in effects*/
 .fadeInBlock {
     opacity:0;
 }
+
+/*headlines*/
